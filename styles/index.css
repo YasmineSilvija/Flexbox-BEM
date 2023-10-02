@@ -4,9 +4,6 @@ body {
 
 }
 
-.style {
-  flex-wrap: wrap-reverse;
-}
 .container-one{
 width: 468px;
 height: 160px;
@@ -18,13 +15,13 @@ display:flex;
 margin:20px;
 display: flex;
 justify-content:flex-start;
-align-content: space-around;
-
+align-items: flex-end
 } 
 
 .container-two{
 width: 468px;
-height: 160px;
+height: 160px
+min height: 78px;
 flex-shrink: 0;
 border-radius: 8px;
 background: #F48C06;
@@ -32,7 +29,7 @@ box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 display:flex;
 margin:20px;
 justify-content:flex-end;
-align-content;:end
+align-items: stretch
 
 } 
 
@@ -47,26 +44,9 @@ box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 display:flex;
 margin:20px;
 justify-content:flex-start;
-align-content;:center
+align-items: center
 
 } 
-
-
-.container-three{
-width: 468px;
-height: 160px;
-flex-shrink: 0;
-border-radius: 8px;
-background: #F48C06;
-box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-display:flex;
-margin:20px;
-justify-content:flex-start;
-align-content: space-around
-
-
-} 
-
 
 .container-four{
 width: 468px;
@@ -77,8 +57,8 @@ background: #F48C06;
 box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 display:flex;
 margin:20px;
-justify-content:flex-end;
-align-content: space-evenly;
+justify-content:space-around
+align-content:flex-start
 
 } 
 
@@ -93,7 +73,7 @@ box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 display:flex;
 margin:20px;
 justify-content:flex-start;
-align-content: inherit;
+align-content: baseline
 
 } 
 
@@ -107,8 +87,8 @@ background: #F48C06;
 box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 display:flex;
 margin:20px;
-justify-content:flex-start;
-align-content: space-between;
+justify-content:center
+align-content: center;
 
 } 
 .one {
@@ -184,4 +164,4 @@ align-items:flex-start;
           display: flex;
           justify-content: flex-end;
 
-          } 
+          }
